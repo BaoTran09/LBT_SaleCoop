@@ -1,0 +1,404 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\trann\\Downloads\\SaleCoop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|C:\\Users\\trann\\Downloads\\SaleCoop\\reportptt.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
+      "RelativeMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|solutionrelative:reportptt.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|C:\\Users\\trann\\Downloads\\SaleCoop\\frreportptt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|solutionrelative:frreportptt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|c:\\users\\trann\\downloads\\salecoop\\frreportptt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|solutionrelative:frreportptt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|c:\\users\\trann\\downloads\\salecoop\\frreportptt.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|solutionrelative:frreportptt.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|C:\\Users\\trann\\Downloads\\SaleCoop\\fr3dmhanghoa.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|solutionrelative:fr3dmhanghoa.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|C:\\Users\\trann\\Downloads\\SaleCoop\\fr5phieutt.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|solutionrelative:fr5phieutt.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|C:\\Users\\trann\\Downloads\\SaleCoop\\fr4hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|solutionrelative:fr4hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|C:\\Users\\trann\\Downloads\\SaleCoop\\fr7buttoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|solutionrelative:fr7buttoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|C:\\Users\\trann\\Downloads\\SaleCoop\\fr1quanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|solutionrelative:fr1quanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|C:\\Users\\trann\\Downloads\\SaleCoop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|C:\\Users\\trann\\Downloads\\SaleCoop\\fr2banhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|solutionrelative:fr2banhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|C:\\Users\\trann\\Downloads\\SaleCoop\\fr4hoadon.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|solutionrelative:fr4hoadon.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|C:\\Users\\trann\\Downloads\\SaleCoop\\fr6nhanvien.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|solutionrelative:fr6nhanvien.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|C:\\Users\\trann\\Downloads\\SaleCoop\\fr6nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|solutionrelative:fr6nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|C:\\Users\\trann\\Downloads\\SaleCoop\\fr1quanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|solutionrelative:fr1quanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|C:\\Users\\trann\\Downloads\\SaleCoop\\fr2banhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|solutionrelative:fr2banhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|C:\\Users\\trann\\Downloads\\SaleCoop\\fr5phieutt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|solutionrelative:fr5phieutt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|C:\\Users\\trann\\Downloads\\SaleCoop\\fr4hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|solutionrelative:fr4hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|C:\\Users\\trann\\Downloads\\SaleCoop\\fr3dmhanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|solutionrelative:fr3dmhanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|C:\\Users\\trann\\Downloads\\SaleCoop\\fr7buttoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|solutionrelative:fr7buttoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|C:\\Users\\trann\\Downloads\\SaleCoop\\fr6nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|solutionrelative:fr6nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|C:\\Users\\trann\\Downloads\\SaleCoop\\fr5phieutt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}|SaleCoop.csproj|solutionrelative:fr5phieutt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 18,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Fr1QuanLy.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\trann\\Downloads\\SaleCoop\\Fr1QuanLy.cs",
+              "RelativeDocumentMoniker": "Fr1QuanLy.cs",
+              "ToolTip": "C:\\Users\\trann\\Downloads\\SaleCoop\\Fr1QuanLy.cs [Design]",
+              "RelativeToolTip": "Fr1QuanLy.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T07:03:30.677Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Fr2BanHang.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\trann\\Downloads\\SaleCoop\\Fr2BanHang.cs",
+              "RelativeDocumentMoniker": "Fr2BanHang.cs",
+              "ToolTip": "C:\\Users\\trann\\Downloads\\SaleCoop\\Fr2BanHang.cs [Design]",
+              "RelativeToolTip": "Fr2BanHang.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T15:37:58.088Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Fr3DMHangHoa.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\trann\\Downloads\\SaleCoop\\Fr3DMHangHoa.cs",
+              "RelativeDocumentMoniker": "Fr3DMHangHoa.cs",
+              "ToolTip": "C:\\Users\\trann\\Downloads\\SaleCoop\\Fr3DMHangHoa.cs [Design]",
+              "RelativeToolTip": "Fr3DMHangHoa.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T07:57:08.125Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Fr4HoaDon.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\trann\\Downloads\\SaleCoop\\Fr4HoaDon.cs",
+              "RelativeDocumentMoniker": "Fr4HoaDon.cs",
+              "ToolTip": "C:\\Users\\trann\\Downloads\\SaleCoop\\Fr4HoaDon.cs [Design]",
+              "RelativeToolTip": "Fr4HoaDon.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T16:16:58.219Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Fr5PhieuTT.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\trann\\Downloads\\SaleCoop\\Fr5PhieuTT.cs",
+              "RelativeDocumentMoniker": "Fr5PhieuTT.cs",
+              "ToolTip": "C:\\Users\\trann\\Downloads\\SaleCoop\\Fr5PhieuTT.cs [Design]",
+              "RelativeToolTip": "Fr5PhieuTT.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T17:46:19.879Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Fr6NhanVien.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\trann\\Downloads\\SaleCoop\\Fr6NhanVien.cs",
+              "RelativeDocumentMoniker": "Fr6NhanVien.cs",
+              "ToolTip": "C:\\Users\\trann\\Downloads\\SaleCoop\\Fr6NhanVien.cs [Design]",
+              "RelativeToolTip": "Fr6NhanVien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T12:09:05.788Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Fr7ButToan.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\trann\\Downloads\\SaleCoop\\Fr7ButToan.cs",
+              "RelativeDocumentMoniker": "Fr7ButToan.cs",
+              "ToolTip": "C:\\Users\\trann\\Downloads\\SaleCoop\\Fr7ButToan.cs [Design]",
+              "RelativeToolTip": "Fr7ButToan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T07:54:12.127Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Fr2BanHang.cs",
+              "DocumentMoniker": "C:\\Users\\trann\\Downloads\\SaleCoop\\Fr2BanHang.cs",
+              "RelativeDocumentMoniker": "Fr2BanHang.cs",
+              "ToolTip": "C:\\Users\\trann\\Downloads\\SaleCoop\\Fr2BanHang.cs",
+              "RelativeToolTip": "Fr2BanHang.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAArwDkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T15:42:07.042Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrReportPTT.cs",
+              "DocumentMoniker": "C:\\Users\\trann\\Downloads\\SaleCoop\\FrReportPTT.cs",
+              "RelativeDocumentMoniker": "FrReportPTT.cs",
+              "ToolTip": "C:\\Users\\trann\\Downloads\\SaleCoop\\FrReportPTT.cs",
+              "RelativeToolTip": "FrReportPTT.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAawJAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T18:12:38.604Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\trann\\Downloads\\SaleCoop\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\trann\\Downloads\\SaleCoop\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T19:51:14.389Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Fr4HoaDon.cs",
+              "DocumentMoniker": "C:\\Users\\trann\\Downloads\\SaleCoop\\Fr4HoaDon.cs",
+              "RelativeDocumentMoniker": "Fr4HoaDon.cs",
+              "ToolTip": "C:\\Users\\trann\\Downloads\\SaleCoop\\Fr4HoaDon.cs",
+              "RelativeToolTip": "Fr4HoaDon.cs",
+              "ViewState": "AgIAAEgBAAAAAAAAAAAAAFIBAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T17:19:24.229Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrReportPTT.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\trann\\Downloads\\SaleCoop\\FrReportPTT.Designer.cs",
+              "RelativeDocumentMoniker": "FrReportPTT.Designer.cs",
+              "ToolTip": "C:\\Users\\trann\\Downloads\\SaleCoop\\FrReportPTT.Designer.cs",
+              "RelativeToolTip": "FrReportPTT.Designer.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAhwKEAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T12:27:47.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrReportPTT.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\trann\\Downloads\\SaleCoop\\FrReportPTT.cs",
+              "RelativeDocumentMoniker": "FrReportPTT.cs",
+              "ToolTip": "C:\\Users\\trann\\Downloads\\SaleCoop\\FrReportPTT.cs [Design]",
+              "RelativeToolTip": "FrReportPTT.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T18:12:06.618Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Fr3DMHangHoa.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\trann\\Downloads\\SaleCoop\\Fr3DMHangHoa.Designer.cs",
+              "RelativeDocumentMoniker": "Fr3DMHangHoa.Designer.cs",
+              "ToolTip": "C:\\Users\\trann\\Downloads\\SaleCoop\\Fr3DMHangHoa.Designer.cs",
+              "RelativeToolTip": "Fr3DMHangHoa.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T08:00:51.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReportPTT.rdlc [Design]",
+              "DocumentMoniker": "C:\\Users\\trann\\Downloads\\SaleCoop\\ReportPTT.rdlc",
+              "RelativeDocumentMoniker": "ReportPTT.rdlc",
+              "ToolTip": "C:\\Users\\trann\\Downloads\\SaleCoop\\ReportPTT.rdlc [Design]*",
+              "RelativeToolTip": "ReportPTT.rdlc [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
+              "WhenOpened": "2024-11-30T12:01:34.556Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Fr1QuanLy.cs",
+              "DocumentMoniker": "C:\\Users\\trann\\Downloads\\SaleCoop\\Fr1QuanLy.cs",
+              "RelativeDocumentMoniker": "Fr1QuanLy.cs",
+              "ToolTip": "C:\\Users\\trann\\Downloads\\SaleCoop\\Fr1QuanLy.cs",
+              "RelativeToolTip": "Fr1QuanLy.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T08:43:29.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Fr5PhieuTT.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\trann\\Downloads\\SaleCoop\\Fr5PhieuTT.Designer.cs",
+              "RelativeDocumentMoniker": "Fr5PhieuTT.Designer.cs",
+              "ToolTip": "C:\\Users\\trann\\Downloads\\SaleCoop\\Fr5PhieuTT.Designer.cs",
+              "RelativeToolTip": "Fr5PhieuTT.Designer.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAASwGoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:02:33.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Fr6NhanVien.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\trann\\Downloads\\SaleCoop\\Fr6NhanVien.Designer.cs",
+              "RelativeDocumentMoniker": "Fr6NhanVien.Designer.cs",
+              "ToolTip": "C:\\Users\\trann\\Downloads\\SaleCoop\\Fr6NhanVien.Designer.cs",
+              "RelativeToolTip": "Fr6NhanVien.Designer.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T07:51:54.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Fr4HoaDon.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\trann\\Downloads\\SaleCoop\\Fr4HoaDon.Designer.cs",
+              "RelativeDocumentMoniker": "Fr4HoaDon.Designer.cs",
+              "ToolTip": "C:\\Users\\trann\\Downloads\\SaleCoop\\Fr4HoaDon.Designer.cs",
+              "RelativeToolTip": "Fr4HoaDon.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T17:27:07.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Fr7ButToan.cs",
+              "DocumentMoniker": "C:\\Users\\trann\\Downloads\\SaleCoop\\Fr7ButToan.cs",
+              "RelativeDocumentMoniker": "Fr7ButToan.cs",
+              "ToolTip": "C:\\Users\\trann\\Downloads\\SaleCoop\\Fr7ButToan.cs",
+              "RelativeToolTip": "Fr7ButToan.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAAAKwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T08:46:19.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Fr6NhanVien.cs",
+              "DocumentMoniker": "C:\\Users\\trann\\Downloads\\SaleCoop\\Fr6NhanVien.cs",
+              "RelativeDocumentMoniker": "Fr6NhanVien.cs",
+              "ToolTip": "C:\\Users\\trann\\Downloads\\SaleCoop\\Fr6NhanVien.cs",
+              "RelativeToolTip": "Fr6NhanVien.cs",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAvwKkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T12:57:41.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Fr5PhieuTT.cs",
+              "DocumentMoniker": "C:\\Users\\trann\\Downloads\\SaleCoop\\Fr5PhieuTT.cs",
+              "RelativeDocumentMoniker": "Fr5PhieuTT.cs",
+              "ToolTip": "C:\\Users\\trann\\Downloads\\SaleCoop\\Fr5PhieuTT.cs",
+              "RelativeToolTip": "Fr5PhieuTT.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAAAKMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T18:47:36.158Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

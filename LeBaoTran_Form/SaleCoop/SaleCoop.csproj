@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8ED8D95C-FB42-471D-B36B-6F25D5AB134F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SaleCoop</RootNamespace>
+    <AssemblyName>SaleCoop</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ButToanCoopDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ButToanCoopDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CoSoCoopDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CoSoCoopDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CTHDCoopDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CTHDCoopDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DMHHCoopDataset.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DMHHCoopDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Fr1QuanLy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fr1QuanLy.Designer.cs">
+      <DependentUpon>Fr1QuanLy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fr2BanHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fr2BanHang.Designer.cs">
+      <DependentUpon>Fr2BanHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fr3DMHangHoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fr3DMHangHoa.Designer.cs">
+      <DependentUpon>Fr3DMHangHoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fr4HoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fr4HoaDon.Designer.cs">
+      <DependentUpon>Fr4HoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fr5PhieuTT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fr5PhieuTT.Designer.cs">
+      <DependentUpon>Fr5PhieuTT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fr6NhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fr6NhanVien.Designer.cs">
+      <DependentUpon>Fr6NhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fr7ButToan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fr7ButToan.Designer.cs">
+      <DependentUpon>Fr7ButToan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrDangNhap.Designer.cs">
+      <DependentUpon>FrDangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLayMK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLayMK.Designer.cs">
+      <DependentUpon>FrmLayMK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrReportPTT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrReportPTT.Designer.cs">
+      <DependentUpon>FrReportPTT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Function.cs" />
+    <Compile Include="HoaDonCoopDataset.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HoaDonCoopDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Ketnoi.cs" />
+    <Compile Include="KhachHangCoopDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KhachHangCoopDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LoaiHHCoopDataset.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LoaiHHCoopDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="NhanVienCoopDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NhanVienCoopDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PhieuTTCoopDataset.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PhieuTTCoopDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="TaiKhoan.cs" />
+    <EmbeddedResource Include="Fr1QuanLy.resx">
+      <DependentUpon>Fr1QuanLy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fr2BanHang.resx">
+      <DependentUpon>Fr2BanHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fr3DMHangHoa.resx">
+      <DependentUpon>Fr3DMHangHoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fr4HoaDon.resx">
+      <DependentUpon>Fr4HoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fr5PhieuTT.resx">
+      <DependentUpon>Fr5PhieuTT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fr6NhanVien.resx">
+      <DependentUpon>Fr6NhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fr7ButToan.resx">
+      <DependentUpon>Fr7ButToan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrDangNhap.resx">
+      <DependentUpon>FrDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLayMK.resx">
+      <DependentUpon>FrmLayMK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrReportPTT.resx">
+      <DependentUpon>FrReportPTT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ReportPTT.rdlc" />
+    <None Include="ButToanCoopDataSet.xsc">
+      <DependentUpon>ButToanCoopDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ButToanCoopDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ButToanCoopDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ButToanCoopDataSet.xss">
+      <DependentUpon>ButToanCoopDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CoSoCoopDataSet.xsc">
+      <DependentUpon>CoSoCoopDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CoSoCoopDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CoSoCoopDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CoSoCoopDataSet.xss">
+      <DependentUpon>CoSoCoopDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CTHDCoopDataSet.xsc">
+      <DependentUpon>CTHDCoopDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CTHDCoopDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CTHDCoopDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CTHDCoopDataSet.xss">
+      <DependentUpon>CTHDCoopDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DMHHCoopDataset.xsc">
+      <DependentUpon>DMHHCoopDataset.xsd</DependentUpon>
+    </None>
+    <None Include="DMHHCoopDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DMHHCoopDataset.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DMHHCoopDataset.xss">
+      <DependentUpon>DMHHCoopDataset.xsd</DependentUpon>
+    </None>
+    <None Include="HoaDonCoopDataset.xsc">
+      <DependentUpon>HoaDonCoopDataset.xsd</DependentUpon>
+    </None>
+    <None Include="HoaDonCoopDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HoaDonCoopDataset.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HoaDonCoopDataset.xss">
+      <DependentUpon>HoaDonCoopDataset.xsd</DependentUpon>
+    </None>
+    <None Include="KhachHangCoopDataSet.xsc">
+      <DependentUpon>KhachHangCoopDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="KhachHangCoopDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KhachHangCoopDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KhachHangCoopDataSet.xss">
+      <DependentUpon>KhachHangCoopDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="LoaiHHCoopDataset.xsc">
+      <DependentUpon>LoaiHHCoopDataset.xsd</DependentUpon>
+    </None>
+    <None Include="LoaiHHCoopDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LoaiHHCoopDataset.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LoaiHHCoopDataset.xss">
+      <DependentUpon>LoaiHHCoopDataset.xsd</DependentUpon>
+    </None>
+    <None Include="NhanVienCoopDataSet.xsc">
+      <DependentUpon>NhanVienCoopDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="NhanVienCoopDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>NhanVienCoopDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="NhanVienCoopDataSet.xss">
+      <DependentUpon>NhanVienCoopDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="PhieuTTCoopDataset.xsc">
+      <DependentUpon>PhieuTTCoopDataset.xsd</DependentUpon>
+    </None>
+    <None Include="PhieuTTCoopDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PhieuTTCoopDataset.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PhieuTTCoopDataset.xss">
+      <DependentUpon>PhieuTTCoopDataset.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MediaCoop\ao_khoac_nu_mua_dong.jpg" />
+    <Content Include="MediaCoop\ao_so_mi_nam.jpg" />
+    <Content Include="MediaCoop\bot_giat_omo.jpg" />
+    <Content Include="MediaCoop\but_bi_thien_long.png" />
+    <Content Include="MediaCoop\ca_hoi_phi_le.jpg" />
+    <Content Include="MediaCoop\chao_chong_dinh_sunhouse.jpg" />
+    <Content Include="MediaCoop\coca_cola.jpg" />
+    <Content Include="MediaCoop\dau_phong_rang_muoi.jpg" />
+    <Content Include="MediaCoop\ImageChoose.png" />
+    <Content Include="MediaCoop\kem_danh_rang_colgate.jpg" />
+    <Content Include="MediaCoop\lego_creator.jpg" />
+    <Content Include="MediaCoop\may_ep_trai_cay_panasonic.jpg" />
+    <Content Include="MediaCoop\mi_goi_hao_hao.jpg" />
+    <Content Include="MediaCoop\noi_com_dien_sharp.jpg" />
+    <Content Include="MediaCoop\pho_mai_con_bo_cuoi.jpg" />
+    <Content Include="MediaCoop\quat_dien_toshiba.jpg" />
+    <Content Include="MediaCoop\red_bull.jpg" />
+    <Content Include="MediaCoop\sach_giao_khoa_lop_12.jpg" />
+    <Content Include="MediaCoop\sua_vinamilk.jpg" />
+    <Content Include="MediaCoop\thit_heo_ba_roi.jpg" />
+    <None Include="Resources\programmer3.png" />
+    <None Include="Resources\user1.png" />
+    <None Include="Resources\lock2.png" />
+    <None Include="Resources\eye1.png" />
+    <None Include="Resources\view1.png" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
